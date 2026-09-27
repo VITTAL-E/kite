@@ -192,3 +192,7 @@ html[data-theme="dark"] #home-dropdown-menu {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4) !important;
 }
 
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+
