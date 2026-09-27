@@ -1,0 +1,44 @@
+Created At: 2026-09-27T01:00:10+05:30
+Completed At: 2026-09-27T01:00:12+05:30
+The following changes were made by the replace_file_content tool to: c:\Users\ADMIN\Desktop\websites phase 2\kite\index.html. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -864,5 +864,35 @@
+       });
+     }
+   })();
+-</script></main><footer class="w-full bg-surface-container-low text-on-surface mt-space-xl"><div class="max-w-[1440px] mx-auto px-space-md lg:px-margin-desktop py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop"><div class="space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="Zephyr &amp; Ridge Brand Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIart93R66wKU5pac_jc9qrz1m7liklw6JGh05UOF4krv7BV6DtBGNOC_4nzE5E6rr515TD6oK5wuLXnLI_L7sdVAYbBgvrYrNbGsHzNIAe6QA_2bisTq3eJwYjqYv1PIqDEW8L55RMlYNMUJ3KVSvHmxRGqctbwAEcoqXeq-FxKVCqsJ7L_xqMvOYZ0csEHP2R9UUwkzkyto0_d9_bqXXTSpUAkL6QrDYaE2oiFSLCIbDvIeSxVB-"/><span class="font-headline-sm text-headline-sm uppercase tracking-tight text-primary">Zephyr &amp; Ridge</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Engineered for coastal thermal currents and mountain updrafts. Since 2014, we develop precision single-line airfoils, sport stunt wings, and expedition traction kits for wind enthusiasts worldwide.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="material-symbols-outlined text-secondary text-base">verified</span><span class="font-label-sm text-label-sm text-on-surface-variant">Certified Wind Gear Manufacturer</span></div></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Gear Categories</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-secondary transition-colors" data-path="products-catalog" href="#">Single-Line Art &amp; Family Kites</a></li><li><a class="hover:text-secondary transition-colors" data-path="products-catalog" href="#">Dual &amp; Quad Line Acrobatic Stunt Kites</a></li><li><a class="hover:text-secondary transition-colors" data-path="products-catalog" href="#">Power &amp; Traction Foils (1.5m - 6.0m)</a></li><li><a class="hover:text-secondary transition-colors" data-path="outdoor-gear" href="#">Aerodynamic Beach Shelters &amp; Windbreaks</a></li><li><a class="hover:text-secondary transition-colors" data-path="outdoor-gear" href="#">Anemometers, Sand Stakes &amp; Line Winders</a></li></ul></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Resources &amp; Field Guides</h3><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-secondary transition-colors" data-path="buying-guide" href="#">Beaufort Wind Force Scale Guide</a></li><li><a class="hover:text-secondary transition-colors" data-path="buying-guide" href="#">Flight Safety &amp; Airspace Regulations</a></li><li><a class="hover:text-secondary transition-colors" data-path="events-festivals" href="#">Local Beach Wind Telemetry Map</a></li><li><a class="hover:text-secondary transition-colors" data-path="events-festivals" href="#">Submit a Coastal Kite Festival</a></li><li><a class="hover:text-secondary transition-colors" data-path="contact-support" href="#">Affiliate Pilot Ambassador Program</a></li></ul></div><div class="space-y-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Live Wind Alert &amp; Newsletter</h3><p class="font-body-sm text-body-sm text-on-surface-variant">Receive regional wind forecasts and early access to limited edition seasonal aerodynamic runs.</p><form class="space-y-space-xs"><input class="w-full px-space-md py-2.5 rounded-lg bg-surface-container-lowest text-on-surface font-body-sm text-body-sm focus:outline-none focus:ring-2 focus:ring-secondary" placeholder="pilot@zephyroridge.com" type="email"/><div class="flex items-center gap-space-xs"><select class="px-space-sm py-2 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md focus:outline-none"><option>Threshold: 15+ kts</option><option>Threshold: 20+ kts</option><option>Threshold: 25+ kts Gale</option></select><button class="flex-1 bg-secondary text-on-secondary px-space-md py-2 rounded-lg font-label-lg text-label-lg hover:bg-secondary-container hover:text-on-secondary-container transition-colors" type="button">Subscribe</button></div><span class="font-label-sm text-label-sm text-on-surface-variant block">Zero spam. Only high-pressure thermal updates.</span></form></div></div><div class="mt-space-xl pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-md text-label-md"><div class="flex items-center gap-space-md flex-wrap"><span>© 2025 Zephyr &amp; Ridge Outdoor Gear Co. All rights reserved.</span><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" href="#">Flight Warranty</a></div><div class="flex items-center gap-space-md"><span>Currency: <strong>USD ($)</strong></span><div class="flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider"><span>VISA</span><span>MC</span><span>AMEX</span><span>APPLE PAY</span></div></div></div></div></footer><script>(function(){const themeBtn=document.getElementById('theme-toggle');const themeIcon=document.getElementById('theme-icon');const rtlBtn=document.getElementById('rtl-toggle');if(themeBtn&&themeIcon){themeBtn.addEventListener('click',function(){const isDark=document.documentElement.classList.toggle('dark');themeIcon.textContent=isDark?'light_mode':'dark_mode';});}if(rtlBtn){rtlBtn.addEventListener('click',function(){const currentDir=document.documentElement.getAttribute('dir')||'ltr';const nextDir=currentDir==='ltr'?'rtl':'ltr';document.documentElement.setAttribute('dir',nextDir);});}const dropdownBtn=document.getElementById('home-dropdown-btn');const dropdownMenu=document.getElementById('home-dropdown-menu');if(dropdownBtn&&dropdownMenu){dropdownBtn.addEventListener('click',function(e){e.stopPropagation();dropdownMenu.classList.toggle('hidden');});document.addEventListener('click',function(){if(!dropdownMenu.classList.contains('hidden')){dropdownMenu.classList.add('hidden');}});}})();</script><script src="assets/site-global.js"></script>
++</footer><script>(function(){
++  const themeBtn=document.getElementById('theme-toggle');
++  const themeIcon=document.getElementById('theme-icon');
++  const rtlBtn=document.getElementById('rtl-toggle');
++  // Sync icon with current theme on load
++  if(themeIcon){
++    themeIcon.textContent=document.documentElement.classList.contains('dark')?'light_mode':'dark_mode';
++  }
++  if(themeBtn&&themeIcon){
++    themeBtn.addEventListener('click',function(){
++      const isDark=document.documentElement.classList.toggle('dark');
++      localStorage.setItem('kite-theme',isDark?'dark':'light');
++      themeIcon.textContent=isDark?'light_mode':'dark_mode';
++    });
++  }
++  if(rtlBtn){
++    rtlBtn.addEventListener('click',function(){
++      const currentDir=document.documentElement.getAttribute('dir')||'ltr';
++      const nextDir=currentDir==='ltr'?'rtl':'ltr';
++      document.documentElement.setAttribute('dir',nextDir);
++      localStorage.setItem('kite-dir',nextDir);
++    });
++  }
++  const dropdownBtn=document.getElementById('home-dropdown-btn');
++  const dropdownMenu=document.getElementById('home-dropdown-menu');
++  if(dropdownBtn&&dropdownMenu){
++    dropdownBtn.addEventListener('click',function(e){e.stopPropagation();dropdownMenu.classList.toggle('hidden');});
++    document.addEventListener('click',function(){if(!dropdownMenu.classList.contains('hidden')){dropdownMenu.classList.add('hidden');}});
++  }
++})();</script><script src="assets/site-global.js"></script>
++</body></html>
+ </body></html>
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.
