@@ -171,3 +171,24 @@ html[dir="rtl"] .rounded-r { border-radius: 0 !important; border-top-left-radius
   #kite-controls { right: 10px; bottom: 10px; }
   html[dir="rtl"] #kite-controls { right: auto; left: 10px; }
 }
+
+/* Mobile Menu & Navigation Styling */
+#kite-mobile-menu {
+  transition: all 0.25s ease-in-out;
+}
+html[data-theme="dark"] #kite-mobile-menu {
+  background-color: #0c2029 !important;
+  border-color: #1e3a47 !important;
+}
+html[data-theme="dark"] #kite-mobile-menu a {
+  color: #e5f0f4 !important;
+}
+html[data-theme="dark"] #kite-mobile-menu a:hover {
+  background-color: #102a35 !important;
+}
+html[data-theme="dark"] #home-dropdown-menu {
+  background-color: #0c2029 !important;
+  border-color: #1e3a47 !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4) !important;
+}
+

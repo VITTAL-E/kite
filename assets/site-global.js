@@ -1,5 +1,5 @@
 
-(function(){
+ (function(){
  const routes={
   "home":"index.html","home 1":"index.html","home 2":"home-2.html",
   "categories":"products.html", "products":"products.html","product catalog":"products.html","shop":"products.html",
@@ -49,6 +49,50 @@
    };
   }
  }
+ function navInit(){
+  const mobileBtn = document.getElementById("kite-mobile-toggle");
+  const mobileMenu = document.getElementById("kite-mobile-menu");
+  const mobileIcon = document.getElementById("kite-mobile-icon");
+  if(mobileBtn && mobileMenu) {
+   mobileBtn.onclick = (e) => {
+    e.stopPropagation();
+    const isHidden = mobileMenu.classList.contains("hidden");
+    if(isHidden) {
+     mobileMenu.classList.remove("hidden");
+     mobileMenu.classList.add("flex");
+     if(mobileIcon) mobileIcon.textContent = "close";
+     mobileBtn.setAttribute("aria-expanded", "true");
+    } else {
+     mobileMenu.classList.add("hidden");
+     mobileMenu.classList.remove("flex");
+     if(mobileIcon) mobileIcon.textContent = "menu";
+     mobileBtn.setAttribute("aria-expanded", "false");
+    }
+   };
+   document.addEventListener("click", (e) => {
+    if(!mobileMenu.contains(e.target) && !mobileBtn.contains(e.target)) {
+     mobileMenu.classList.add("hidden");
+     mobileMenu.classList.remove("flex");
+     if(mobileIcon) mobileIcon.textContent = "menu";
+     mobileBtn.setAttribute("aria-expanded", "false");
+    }
+   });
+  }
+
+  const homeBtn = document.getElementById("home-dropdown-btn");
+  const homeMenu = document.getElementById("home-dropdown-menu");
+  if(homeBtn && homeMenu) {
+   homeBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    homeMenu.classList.toggle("hidden");
+   });
+   document.addEventListener("click", (e) => {
+    if(!homeBtn.contains(e.target) && !homeMenu.contains(e.target)) {
+     homeMenu.classList.add("hidden");
+    }
+   });
+  }
+ }
  function update(){
   const dark=document.documentElement.dataset.theme==="dark";
   const rtl=document.documentElement.dir==="rtl";
@@ -92,10 +136,11 @@
  }
  document.documentElement.dataset.theme=localStorage.getItem("kite-theme")||"light";
  document.documentElement.dir=localStorage.getItem("kite-dir")||"ltr";
- const init = ()=>{controls();update();links();forms()};
+ const init = ()=>{controls();navInit();update();links();forms()};
  if(document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", init);
  } else {
   init();
  }
 })();
+
